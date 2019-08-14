@@ -26,7 +26,11 @@ print(plik.split(".")[-1])
 a = "1, 2, 3, 4, 5"
 a.replace(", ", "+")
 
+b = {"a1":"liczbaa1","a2":"liczbaa2"}
 
 a = {"klucz":"liczba","klucz1":"liczba1"}
 a["klucz2"]=123
 print(a["klucz1"])
+
+a.update(b)
+print(a, b)
