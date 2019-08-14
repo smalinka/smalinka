@@ -34,3 +34,4 @@ print(a["klucz1"])
 
 a.update({"klucz10":"liczba10"})
 print(a)
+
