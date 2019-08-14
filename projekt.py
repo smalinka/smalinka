@@ -30,3 +30,6 @@ a.replace(", ", "+")
 a = {"klucz":"liczba","klucz1":"liczba1"}
 a["klucz2"]=123
 print(a["klucz1"])
+
+a.update({"klucz10":"liczba10"})
+print(a)
