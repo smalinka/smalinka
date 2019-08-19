@@ -7,3 +7,6 @@ print(b)
 
 c = a+1
 print(c)
+
+a={"klucz":"wartosc"}
+
